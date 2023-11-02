@@ -1,5 +1,8 @@
 package com.harish;
 import demo1.*;
+import tutorialvolatile.DemoVolatile;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,5 +25,15 @@ public class Main {
         });
 
         t1.start();t2.start();t3.start();
+
+        // volatile
+
+        DemoVolatile v = new DemoVolatile();
+        v.start();
+
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+
+        v.shut();
     }
 }
