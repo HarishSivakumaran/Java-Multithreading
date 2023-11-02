@@ -1,4 +1,4 @@
-package synchronizedblocks;
+package synchronizedMethodblocks;
 
 public class SynchronizedBlocks {
     private int counter = 0;
